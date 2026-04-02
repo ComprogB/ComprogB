@@ -205,7 +205,7 @@ body::before {
     }
 
     .about-image-box {
-        width: min(100%, 320px);
+        width: min(100%, 540px);
         height: 320px;
         margin: 0.75rem auto 1rem;
         border-radius: 28px;
