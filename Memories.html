@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="Design.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <nav>
+            <ul class="navlisst">
+                <li><a href="index.html" id="homeLink">Home</a></li>
+                <li><a href="Memories.html">Experiences</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+
+<main class="center-panel">
+        <div class="box-grid">
+            <div class="card-box selected" data-tab="events" aria-label="Events">
+                <span class="box-text">Events</span>
+            </div>
+            <div class="card-box" data-tab="students" aria-label="Students">
+                <span class="box-text">Students</span>
+            </div>
+            <div class="card-box" data-tab="memories" aria-label="Memories">
+                <span class="box-text">Memories</span>
+            </div>
+        </div>
+
+        <button class="enter-btn hidden" id="tabEnterBtn">Open</button>
+    </main>
+
+<section class="tab-content">
+        <div class="tab-panel active" data-tab="events">
+        <div class="event-section">
+            <h3>LOCATION: ROOM</h3>
+            <div class="event-attachment-row">
+                <div class="event-info-box">
+                    <div class="event-info-text">
+                        <h4>Signatures??</h4>
+                        <p>Write to remember.</p>
+                        <p>Tutas nag Sturdy</p>
+                    </div>
+                </div>
+                <div class="event-video-box" aria-label="Signature video box">
+                    <video class="event-video-player" controls playsinline preload="metadata">
+                        <source src="IMG_2245.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="event-carousel" id="eventCarousel3">
+                <button class="event-arrow prev" id="eventPrev3" type="button" aria-label="Previous signature image">&lsaquo;</button>
+                <div class="event-slide-container">
+                        <img class="event-slide active" src="signature/compressed-IMG_2114.jpg" alt="Signature image 8">
+                        <img class="event-slide" src="signature/compressed-IMG_2115.jpg" alt="Signature image 9">
+                        <img class="event-slide" src="signature/compressed-IMG_2116.jpg" alt="Signature image 10">
+                        <img class="event-slide" src="signature/compressed-IMG_2117.jpg" alt="Signature image 11">
+                        <img class="event-slide" src="signature/compressed-IMG_2118.jpg" alt="Signature image 12">
+                        <img class="event-slide" src="signature/compressed-IMG_2119.jpg" alt="Signature image 13">
+                        <img class="event-slide" src="signature/compressed-IMG_2120.jpg" alt="Signature image 14">
+                        <img class="event-slide" src="signature/compressed-IMG_2121.jpg" alt="Signature image 15">
+                        <img class="event-slide" src="signature/compressed-IMG_2122.jpg" alt="Signature image 16">
+                        <img class="event-slide" src="signature/compressed-IMG_2123.jpg" alt="Signature image 17">
+                        <img class="event-slide" src="signature/compressed-IMG_2124.jpg" alt="Signature image 18">
+                        <img class="event-slide" src="signature/compressed-IMG_2125.jpg" alt="Signature image 19">
+                        <img class="event-slide" src="signature/compressed-IMG_2126.jpg" alt="Signature image 20">
+                        <img class="event-slide" src="signature/compressed-IMG_2127.jpg" alt="Signature image 21">
+                        <img class="event-slide" src="signature/compressed-IMG_2128.jpg" alt="Signature image 22">
+                        <img class="event-slide" src="signature/compressed-IMG_2129.jpg" alt="Signature image 23">
+                        <img class="event-slide" src="signature/compressed-IMG_2130.jpg" alt="Signature image 24">
+                        <img class="event-slide" src="signature/compressed-IMG_2131.jpg" alt="Signature image 25">
+                        <img class="event-slide" src="signature/compressed-IMG_2132.jpg" alt="Signature image 26">
+                        <img class="event-slide" src="signature/compressed-IMG_2133.jpg" alt="Signature image 27">
+                        <img class="event-slide" src="signature/compressed-IMG_2134.jpg" alt="Signature image 28">
+                        <img class="event-slide" src="signature/compressed-IMG_2135.jpg" alt="Signature image 29">
+                        <img class="event-slide" src="signature/compressed-IMG_2136.jpg" alt="Signature image 30">
+                        <img class="event-slide" src="signature/compressed-IMG_2137.jpg" alt="Signature image 31">
+                        <img class="event-slide" src="signature/compressed-IMG_2138.jpg" alt="Signature image 32">
+                        <img class="event-slide" src="signature/compressed-IMG_2139.jpg" alt="Signature image 33">
+                        <img class="event-slide" src="signature/compressed-IMG_2140.jpg" alt="Signature image 34">
+                        <img class="event-slide" src="signature/compressed-IMG_2141.jpg" alt="Signature image 35">
+                        <img class="event-slide" src="signature/compressed-IMG_2142.jpg" alt="Signature image 36">
+                        <img class="event-slide" src="signature/compressed-IMG_2143.jpg" alt="Signature image 37">
+                        <img class="event-slide" src="signature/compressed-IMG_2146.jpg" alt="Signature image 38">
+                        <img class="event-slide" src="signature/compressed-IMG_2147.jpg" alt="Signature image 39">
+                        <img class="event-slide" src="signature/compressed-IMG_2149.jpg" alt="Signature image 40">
+                        <img class="event-slide" src="signature/compressed-IMG_2150.jpg" alt="Signature image 41">
+                        <img class="event-slide" src="signature/compressed-IMG_2151.jpg" alt="Signature image 42">
+                        <img class="event-slide" src="signature/compressed-IMG_2152.jpg" alt="Signature image 43">
+                        <img class="event-slide" src="signature/compressed-IMG_2154.jpg" alt="Signature image 44">
+                        <img class="event-slide" src="signature/compressed-IMG_2155.jpg" alt="Signature image 45">
+                        <img class="event-slide" src="signature/compressed-IMG_2156.jpg" alt="Signature image 46">
+                        <img class="event-slide" src="signature/compressed-IMG_2157.jpg" alt="Signature image 47">
+                        <img class="event-slide" src="signature/compressed-IMG_2159.jpg" alt="Signature image 48">
+                        <img class="event-slide" src="signature/compressed-IMG_2160.jpg" alt="Signature image 49">
+                        <img class="event-slide" src="signature/compressed-IMG_2162.jpg" alt="Signature image 50">
+                        <img class="event-slide" src="signature/compressed-IMG_2164.jpg" alt="Signature image 51">
+                        <img class="event-slide" src="signature/compressed-IMG_2165.jpg" alt="Signature image 52">
+                        <img class="event-slide" src="signature/compressed-IMG_2166.jpg" alt="Signature image 53">
+                        <img class="event-slide" src="signature/compressed-IMG_2167.jpg" alt="Signature image 54">
+                        <img class="event-slide" src="signature/compressed-IMG_2168.jpg" alt="Signature image 55">
+                        <img class="event-slide" src="signature/compressed-IMG_2169.jpg" alt="Signature image 56">
+                        <img class="event-slide" src="signature/compressed-IMG_2170.jpg" alt="Signature image 57">
+                        <img class="event-slide" src="signature/compressed-IMG_2171.jpg" alt="Signature image 58">
+                        <img class="event-slide" src="signature/compressed-IMG_2172.jpg" alt="Signature image 59">
+                        <img class="event-slide" src="signature/compressed-IMG_2173.jpg" alt="Signature image 60">
+                        <img class="event-slide" src="signature/compressed-IMG_2174.jpg" alt="Signature image 61">
+                        <img class="event-slide" src="signature/compressed-IMG_2176.jpg" alt="Signature image 63">
+                        <img class="event-slide" src="signature/compressed-IMG_2177.jpg" alt="Signature image 64">
+                        <img class="event-slide" src="signature/compressed-IMG_2178.jpg" alt="Signature image 65">
+                        <img class="event-slide" src="signature/compressed-IMG_2179.jpg" alt="Signature image 66">
+                        <img class="event-slide" src="signature/compressed-IMG_2180.jpg" alt="Signature image 67">
+                        <img class="event-slide" src="signature/compressed-IMG_2183.jpg" alt="Signature image 70">
+                        <img class="event-slide" src="signature/compressed-IMG_2184.jpg" alt="Signature image 71">
+                        <img class="event-slide" src="signature/compressed-IMG_2185.jpg" alt="Signature image 72">
+                        <img class="event-slide" src="signature/compressed-IMG_2186.jpg" alt="Signature image 73">
+                        <img class="event-slide" src="signature/compressed-IMG_2187.jpg" alt="Signature image 74">
+                        <img class="event-slide" src="signature/compressed-IMG_2189.jpg" alt="Signature image 75">
+                        <img class="event-slide" src="signature/compressed-IMG_2190.jpg" alt="Signature image 76">
+                        <img class="event-slide" src="signature/compressed-IMG_2191.jpg" alt="Signature image 77">
+                        <img class="event-slide" src="signature/compressed-IMG_2192.jpg" alt="Signature image 78">
+                        <img class="event-slide" src="signature/compressed-IMG_2193.jpg" alt="Signature image 79">
+                        <img class="event-slide" src="signature/compressed-IMG_2194.jpg" alt="Signature image 80">
+                        <img class="event-slide" src="signature/compressed-IMG_2195.jpg" alt="Signature image 81">
+                        <img class="event-slide" src="signature/compressed-IMG_2196.jpg" alt="Signature image 82">
+                        <img class="event-slide" src="signature/compressed-IMG_2197.jpg" alt="Signature image 83">
+                        <img class="event-slide" src="signature/compressed-IMG_2198.jpg" alt="Signature image 84">
+                        <img class="event-slide" src="signature/compressed-IMG_2199.jpg" alt="Signature image 85">
+                        <img class="event-slide" src="signature2/compressed-IMG_2200.jpg" alt="Signature image 86">
+                        <img class="event-slide" src="signature2/compressed-IMG_2201.jpg" alt="Signature image 87">
+                        <img class="event-slide" src="signature2/compressed-IMG_2203.jpg" alt="Signature image 88">
+                        <img class="event-slide" src="signature2/compressed-IMG_2204.jpg" alt="Signature image 89">
+                        <img class="event-slide" src="signature2/compressed-IMG_2205.jpg" alt="Signature image 90">
+                        <img class="event-slide" src="signature2/compressed-IMG_2206.jpg" alt="Signature image 91">
+                        <img class="event-slide" src="signature2/compressed-IMG_2207.jpg" alt="Signature image 92">
+                        <img class="event-slide" src="signature2/compressed-IMG_2208.jpg" alt="Signature image 93">
+                        <img class="event-slide" src="signature2/compressed-IMG_2209.jpg" alt="Signature image 94">
+                        <img class="event-slide" src="signature2/compressed-IMG_2210.jpg" alt="Signature image 95">
+                        <img class="event-slide" src="signature2/compressed-IMG_2211.jpg" alt="Signature image 96">
+                        <img class="event-slide" src="signature2/compressed-IMG_2212.jpg" alt="Signature image 97">
+                        <img class="event-slide" src="signature2/compressed-IMG_2213.jpg" alt="Signature image 98">
+                        <img class="event-slide" src="signature2/compressed-IMG_2214.jpg" alt="Signature image 99">
+                        <img class="event-slide" src="signature2/compressed-IMG_2215.jpg" alt="Signature image 100">
+                        <img class="event-slide" src="signature2/compressed-IMG_2216.jpg" alt="Signature image 101">
+                        <img class="event-slide" src="signature2/compressed-IMG_2217.jpg" alt="Signature image 102">
+                        <img class="event-slide" src="signature2/compressed-IMG_2219.jpg" alt="Signature image 103">
+                        <img class="event-slide" src="signature2/compressed-IMG_2220.jpg" alt="Signature image 104">
+                        <img class="event-slide" src="signature2/compressed-IMG_2221.jpg" alt="Signature image 105">
+                        <img class="event-slide" src="signature2/compressed-IMG_2222.jpg" alt="Signature image 106">
+                        <img class="event-slide" src="signature2/compressed-IMG_2223.jpg" alt="Signature image 107">
+                        <img class="event-slide" src="signature2/compressed-IMG_2224.jpg" alt="Signature image 108">
+                        <img class="event-slide" src="signature2/compressed-IMG_2225.jpg" alt="Signature image 109">
+                        <img class="event-slide" src="signature2/compressed-IMG_2226.jpg" alt="Signature image 110">
+                        <img class="event-slide" src="signature2/compressed-IMG_2227.jpg" alt="Signature image 111">
+                        <img class="event-slide" src="signature2/compressed-IMG_2228.jpg" alt="Signature image 112">
+                        <img class="event-slide" src="signature2/compressed-IMG_2229.jpg" alt="Signature image 113">
+                        <img class="event-slide" src="signature2/compressed-IMG_2230.jpg" alt="Signature image 114">
+                        <img class="event-slide" src="signature2/compressed-IMG_2231.jpg" alt="Signature image 115">
+                        <img class="event-slide" src="signature2/compressed-IMG_2232.jpg" alt="Signature image 116">
+                        <img class="event-slide" src="signature2/compressed-IMG_2233.jpg" alt="Signature image 117">
+                        <img class="event-slide" src="signature2/compressed-IMG_2234.jpg" alt="Signature image 118">
+                        <img class="event-slide" src="signature2/compressed-IMG_2235.jpg" alt="Signature image 119">
+                        <img class="event-slide" src="signature2/compressed-IMG_2236.jpg" alt="Signature image 120">
+                        <img class="event-slide" src="signature2/compressed-IMG_2237.jpg" alt="Signature image 121">
+                        <img class="event-slide" src="signature2/compressed-IMG_2238.jpg" alt="Signature image 122">
+                        <img class="event-slide" src="signature2/compressed-IMG_2239.jpg" alt="Signature image 123">
+                        <img class="event-slide" src="signature2/compressed-IMG_2240.jpg" alt="Signature image 124">
+                        <img class="event-slide" src="signature2/compressed-IMG_2242.jpg" alt="Signature image 125">
+                        <img class="event-slide" src="signature2/compressed-IMG_2243.jpg" alt="Signature image 126">
+                        <img class="event-slide" src="signature2/compressed-IMG_2244.jpg" alt="Signature image 127">
+                        <img class="event-slide" src="signature2/compressed-IMG_2246.jpg" alt="Signature image 128">
+                        <img class="event-slide" src="signature2/compressed-IMG_2247.jpg" alt="Signature image 129">
+                </div>
+                <button class="event-arrow next" id="eventNext3" type="button" aria-label="Next signature image">&rsaquo;</button>
+            </div>
+        </div>
+            <h3>LOCATION: ROOM</h3>
+            <div class="event-info-box">
+                <div class="event-info-text">
+                    <h4>Boodle Fight</h4>
+                    <p>Fill your tummy with delicious food and have a great time!??</p>
+                </div>
+            </div>
+            <div class="event-carousel" id="eventCarousel1">
+                <button class="event-arrow prev" id="eventPrev1" type="button" aria-label="Previous event image">&lsaquo;</button>
+                <div class="event-slide-container">
+                    <img class="event-slide active" src="boodlefight/IMG_1973.jpg" alt="Event image 1">
+                    <img class="event-slide" src="boodlefight/IMG_1978.jpg" alt="Event image 3">
+                    <img class="event-slide" src="boodlefight/IMG_1987.jpg" alt="Event image 4">
+                    <img class="event-slide" src="boodlefight/IMG_1988.jpg" alt="Event image 5">
+                    <img class="event-slide" src="boodlefight/IMG_1989.jpg" alt="Event image 6">
+                    <img class="event-slide" src="boodlefight/IMG_1990(1).jpg" alt="Event image 7">
+                    <img class="event-slide" src="boodlefight/IMG_1991(1).jpg" alt="Event image 8">
+                    <img class="event-slide" src="boodlefight/IMG_1992(1).jpg" alt="Event image 9">
+                    <img class="event-slide" src="boodlefight/IMG_1993(1).jpg" alt="Event image 10">
+                    <img class="event-slide" src="boodlefight/IMG_1994.jpg" alt="Event image 11">
+                    <img class="event-slide" src="boodlefight/IMG_1995.jpg" alt="Event image 12">
+                    <img class="event-slide" src="boodlefight/IMG_1996.jpg" alt="Event image 13">
+                    <img class="event-slide" src="boodlefight/IMG_1997.jpg" alt="Event image 14">
+                    <img class="event-slide" src="boodlefight/IMG_1998.jpg" alt="Event image 15">
+                    <img class="event-slide" src="boodlefight/IMG_1999.jpg" alt="Event image 16">
+                    <img class="event-slide" src="boodlefight/IMG_2001.jpg" alt="Event image 17">
+                </div>
+                <button class="event-arrow next" id="eventNext1" type="button" aria-label="Next event image">&rsaquo;</button>
+            </div>
+            <div class="event-section">
+                <h3>LOCATION: ROOM</h3>
+                <div class="event-attachment-row">
+                    <div class="event-info-box">
+                        <div class="event-info-text">
+                            <h4>Tara Lets!</h4>
+                            <p>Moment to remember??</p>
+                        </div>
+                    </div>
+                    <div class="event-video-box" aria-label="Video box">
+                        <video class="event-video-player" controls playsinline preload="metadata">
+                        <source src="pictures/0324 (1).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="event-carousel" id="eventCarousel2">
+                    <button class="event-arrow prev" id="eventPrev2" type="button" aria-label="Previous second event image">&lsaquo;</button>
+                    <div class="event-slide-container">
+                        <img class="event-slide active" src="pictures/compressed-IMG_2065.jpg" alt="Second event image 1">
+                        <img class="event-slide" src="pictures/compressed-IMG_2056.jpg" alt="Second event image 2">
+                        <img class="event-slide" src="pictures/compressed-IMG_2006.jpg" alt="Second event image 3">
+                        <img class="event-slide" src="pictures/compressed-IMG_2007.jpg" alt="Second event image 4">
+                        <img class="event-slide" src="pictures/compressed-IMG_2008.jpg" alt="Second event image 5">
+                        <img class="event-slide" src="pictures/compressed-IMG_2009.jpg" alt="Second event image 6">
+                        <img class="event-slide" src="pictures/compressed-IMG_2010.jpg" alt="Second event image 7">
+                        <img class="event-slide" src="pictures/compressed-IMG_2011.jpg" alt="Second event image 8">
+                        <img class="event-slide" src="pictures/compressed-IMG_2012.jpg" alt="Second event image 9">
+                        <img class="event-slide" src="pictures/compressed-IMG_2013.jpg" alt="Second event image 10">
+                        <img class="event-slide" src="pictures/compressed-IMG_2014.jpg" alt="Second event image 11">
+                        <img class="event-slide" src="pictures/compressed-IMG_2015.jpg" alt="Second event image 12">
+                        <img class="event-slide" src="pictures/compressed-IMG_2016.jpg" alt="Second event image 13">
+                        <img class="event-slide" src="pictures/compressed-IMG_2017.jpg" alt="Second event image 14">
+                        <img class="event-slide" src="pictures/compressed-IMG_2018.jpg" alt="Second event image 15">
+                        <img class="event-slide" src="pictures/compressed-IMG_2019.jpg" alt="Second event image 16">
+                        <img class="event-slide" src="pictures/compressed-IMG_2020.jpg" alt="Second event image 17">
+                        <img class="event-slide" src="pictures/compressed-IMG_2021.jpg" alt="Second event image 18">
+                        <img class="event-slide" src="pictures/compressed-IMG_2022.jpg" alt="Second event image 19">
+                        <img class="event-slide" src="pictures/compressed-IMG_2023.jpg" alt="Second event image 20">
+                        <img class="event-slide" src="pictures/compressed-IMG_2024.jpg" alt="Second event image 21">
+                        <img class="event-slide" src="pictures/compressed-IMG_2025.jpg" alt="Second event image 22">
+                        <img class="event-slide" src="pictures/compressed-IMG_2026.jpg" alt="Second event image 23">
+                        <img class="event-slide" src="pictures/compressed-IMG_2027.jpg" alt="Second event image 24">
+                        <img class="event-slide" src="pictures/compressed-IMG_2028.jpg" alt="Second event image 25">
+                        <img class="event-slide" src="pictures/compressed-IMG_2029.jpg" alt="Second event image 26">
+                        <img class="event-slide" src="pictures/compressed-IMG_2030.jpg" alt="Second event image 27">
+                        <img class="event-slide" src="pictures/compressed-IMG_2031.jpg" alt="Second event image 28">
+                        <img class="event-slide" src="pictures/compressed-IMG_2032.jpg" alt="Second event image 29">
+                        <img class="event-slide" src="pictures/compressed-IMG_2033.jpg" alt="Second event image 30">
+                        <img class="event-slide" src="pictures/compressed-IMG_2034.jpg" alt="Second event image 31">
+                        <img class="event-slide" src="pictures/compressed-IMG_2035.jpg" alt="Second event image 32">
+                        <img class="event-slide" src="pictures/compressed-IMG_2036.jpg" alt="Second event image 33">
+                        <img class="event-slide" src="pictures/compressed-IMG_2037.jpg" alt="Second event image 34">
+                        <img class="event-slide" src="pictures/compressed-IMG_2038.jpg" alt="Second event image 35">
+                        <img class="event-slide" src="pictures/compressed-IMG_2041.jpg" alt="Second event image 36">
+                        <img class="event-slide" src="pictures/compressed-IMG_2046.jpg" alt="Second event image 37">
+                        <img class="event-slide" src="pictures/compressed-IMG_2048.jpg" alt="Second event image 39">
+                        <img class="event-slide" src="pictures/compressed-IMG_2049.jpg" alt="Second event image 40">
+                        <img class="event-slide" src="pictures/compressed-IMG_2050.jpg" alt="Second event image 41">
+                        <img class="event-slide" src="pictures/compressed-IMG_2051.jpg" alt="Second event image 42">
+                        <img class="event-slide" src="pictures/compressed-IMG_2053.jpg" alt="Second event image 43">
+                        <img class="event-slide" src="pictures/compressed-IMG_2054.jpg" alt="Second event image 44">
+                        <img class="event-slide" src="pictures/compressed-IMG_2055.jpg" alt="Second event image 45">
+                        <img class="event-slide" src="pictures/compressed-IMG_2004.jpg" alt="Second event image 46">
+                        <img class="event-slide" src="pictures/compressed-IMG_2057.jpg" alt="Second event image 47">
+                        <img class="event-slide" src="pictures/compressed-IMG_2058.jpg" alt="Second event image 48">
+                        <img class="event-slide" src="pictures/compressed-IMG_2059.jpg" alt="Second event image 49">
+                        <img class="event-slide" src="pictures/compressed-IMG_2060.jpg" alt="Second event image 50">
+                        <img class="event-slide" src="pictures/compressed-IMG_2061.jpg" alt="Second event image 51">
+                        <img class="event-slide" src="pictures/compressed-IMG_2062.jpg" alt="Second event image 52">
+                        <img class="event-slide" src="pictures/compressed-IMG_2063.jpg" alt="Second event image 53">
+                        <img class="event-slide" src="pictures/compressed-IMG_2064.jpg" alt="Second event image 54">
+                        <img class="event-slide" src="pictures/compressed-IMG_2005.jpg" alt="Second event image 55">
+                        <img class="event-slide" src="pictures/compressed-IMG_2066.jpg" alt="Second event image 56">
+                        <img class="event-slide" src="pictures/compressed-IMG_2067.jpg" alt="Second event image 57">
+                        <img class="event-slide" src="pictures/compressed-IMG_2068.jpg" alt="Second event image 58">
+                        <img class="event-slide" src="pictures/compressed-IMG_2069.jpg" alt="Second event image 59">
+                        <img class="event-slide" src="pictures/compressed-IMG_2070.jpg" alt="Second event image 60">
+                        <img class="event-slide" src="pictures/compressed-IMG_2071.jpg" alt="Second event image 61">
+                        <img class="event-slide" src="pictures/compressed-IMG_2072.jpg" alt="Second event image 62">
+                        <img class="event-slide" src="pictures/compressed-IMG_2073.jpg" alt="Second event image 63">
+                        <img class="event-slide" src="pictures/compressed-IMG_2074.jpg" alt="Second event image 64">
+                        <img class="event-slide" src="pictures/compressed-IMG_2075.jpg" alt="Second event image 65">
+                        <img class="event-slide" src="pictures/compressed-IMG_2076.jpg" alt="Second event image 66">
+                        <img class="event-slide" src="pictures/compressed-IMG_2077.jpg" alt="Second event image 67">
+                        <img class="event-slide" src="pictures/compressed-IMG_2085.jpg" alt="Second event image 75">
+                        <img class="event-slide" src="pictures/compressed-IMG_2086.jpg" alt="Second event image 76">
+                        <img class="event-slide" src="pictures/compressed-IMG_2087.jpg" alt="Second event image 77">
+                        <img class="event-slide" src="pictures/compressed-IMG_2088.jpg" alt="Second event image 78">
+                        <img class="event-slide" src="pictures/compressed-IMG_2089.jpg" alt="Second event image 79">
+                        <img class="event-slide" src="pictures/compressed-IMG_2090.jpg" alt="Second event image 80">
+                        <img class="event-slide" src="pictures/compressed-IMG_2091.jpg" alt="Second event image 81">
+                        <img class="event-slide" src="pictures/compressed-IMG_2092.jpg" alt="Second event image 82">
+                        <img class="event-slide" src="pictures/compressed-IMG_2093.jpg" alt="Second event image 83">
+                        <img class="event-slide" src="pictures/compressed-IMG_2094.jpg" alt="Second event image 84">
+                        <img class="event-slide" src="pictures/compressed-IMG_2095.jpg" alt="Second event image 85">
+                        <img class="event-slide" src="pictures/compressed-IMG_2096.jpg" alt="Second event image 86">
+                        <img class="event-slide" src="pictures/compressed-IMG_2097.jpg" alt="Second event image 87">
+                        <img class="event-slide" src="pictures/compressed-IMG_2099.jpg" alt="Second event image 88">
+                        <img class="event-slide" src="pictures/compressed-IMG_2100.jpg" alt="Second event image 89">
+                        <img class="event-slide" src="pictures/compressed-IMG_2101.jpg" alt="Second event image 90">
+                    </div>
+                    <button class="event-arrow next" id="eventNext2" type="button" aria-label="Next second event image">&rsaquo;</button>
+                </div>
+            </div>
+        </div>
+        <div class="tab-panel" data-tab="students">
+            <h3>Students</h3>
+            <p>Click to Zoom</p>
+            <div class="advisor-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' %3E%3Crect width='300' height='300' fill='%23222'/%3E%3Ctext x='50%25' y='48%25' fill='%23fff' font-size='24' font-family='Arial' dominant-baseline='middle' text-anchor='middle'%3EAdvisor%3C/text%3E%3C/svg%3E" alt="Advisor">
+                <div class="advisor-info">
+                    <h4>Ms. Mary Belle</h4>
+                    <p>Advisor</p>
+                    <p>"Thank you for your guidance and for being a big part of our growth. No matter where life takes us, these memories� and the lessons you taught us �will always stay with us.??"</p>
+                </div>
+            </div>
+            <div class="student-grid">
+                <!-- Replace the src, data-name, and data-description values with real student details -->
+                <div class="student-card" data-name="GENCAI V. AGUILAR" data-description="Description for Student 1.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 1">
+                </div>
+                <div class="student-card" data-name="GERAL E. ALCURAN" data-description="Description for Student 2.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 2">
+                </div>
+                <div class="student-card" data-name="KIEL JHANZEL B. ARBOLANTE" data-description="Description for Student 3.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 3">
+                </div>
+                <div class="student-card" data-name="ASHLEY JHON Z. BAJADO" data-description="Description for Student 4.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 4">
+                </div>
+                <div class="student-card" data-name="JOHN WYNDER I. BANGUANGA" data-description="Description for Student 5.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 5">
+                </div>
+                <div class="student-card" data-name="AARON JAMES A. BORERO" data-description="Description for Student 6.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 6">
+                </div>
+                <div class="student-card" data-name="JOHNZEN D. CABRERA" data-description="Description for Student 7.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 7">
+                </div>
+                <div class="student-card" data-name="JAN MARK A. CANTOS" data-description="Description for Student 8.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 8">
+                </div>
+                <div class="student-card" data-name="ARAY CASIPLE" data-description="Description for Student 9.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 9">
+                </div>
+                <div class="student-card" data-name="KURT ALGUIEN M. CASTRO" data-description="Description for Student 10.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 10">
+                </div>
+                <div class="student-card" data-name="MARK CHRISTIAN E. CERRADO" data-description="Description for Student 11.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 11">
+                </div>
+                <div class="student-card" data-name="MARK FLORENCE A. DEROCA" data-description="Description for Student 12.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 12">
+                </div>
+                <div class="student-card" data-name="ARIEL S. DELAVE" data-description="Description for Student 13.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 13">
+                </div>
+                <div class="student-card" data-name="JEROME A. DULCE" data-description="Description for Student 14.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 14">
+                </div>
+                <div class="student-card" data-name="JOSHUA L. ESPINOSA" data-description="Description for Student 15.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 15">
+                </div>
+                <div class="student-card" data-name="MATT DENZEL O. GABAYOYO" data-description="Description for Student 16.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 16">
+                </div>
+                <div class="student-card" data-name="MIKE JAMES G. GANNABAN" data-description="Description for Student 17.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 17">
+                </div>
+                <div class="student-card" data-name="LAWRENCE V. GRANFIEL" data-description="Description for Student 18.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 18">
+                </div>
+                <div class="student-card" data-name="AARON JAMES G. HULAR" data-description="Description for Student 19.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 19">
+                </div>
+                <div class="student-card" data-name="JIENEIL JASFFER C. JAVIER" data-description="Description for Student 20.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 20">
+                </div>
+                <div class="student-card" data-name="M-JAY C. MARTINEZ" data-description="Description for Student 21.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 21">
+                </div>
+                <div class="student-card" data-name="OLIVER G. MENDOZA" data-description="Description for Student 22.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 22">
+                </div>
+                <div class="student-card" data-name="EEJAY J. ONTUA" data-description="Description for Student 23.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 23">
+                </div>
+                <div class="student-card" data-name="JANDEL A. PASOOT" data-description="Description for Student 24.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 24">
+                </div>
+                <div class="student-card" data-name="JIM IVAN V. REY" data-description="Description for Student 25.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 25">
+                </div>
+                <div class="student-card" data-name="GIAN LESTER L. RIVARES" data-description="Description for Student 26.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 26">
+                </div>
+                <div class="student-card" data-name="JOHN CHARL B. ROSALES" data-description="Description for Student 27.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 27">
+                </div>
+                <div class="student-card" data-name="MATTEW B. SALAUM" data-description="Description for Student 28.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 28">
+                </div>
+                <div class="student-card" data-name="GERALD G. SECO" data-description="Description for Student 29.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 29">
+                </div>
+                <div class="student-card" data-name="JIGS V. SERSEÑA" data-description="Description for Student 30.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 30">
+                </div>
+                <div class="student-card" data-name="ANGELOU V. TUTAS" data-description="Description for Student 31.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 31">
+                </div>
+                <div class="student-card" data-name="JOHN DANIEL V. VIAJE" data-description="Description for Student 32.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 32">
+                </div>
+                <div class="student-card" data-name="JAYNARD L. VILLANUEVA" data-description="Description for Student 33.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 33">
+                </div>
+                <div class="student-card" data-name="JUN C. VILLORENTE" data-description="Description for Student 34.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 34">
+                </div>
+                <div class="student-card" data-name="JANINE ANTONETTE A. ALIBO" data-description="Description for Student 35.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 35">
+                </div>
+                <div class="student-card" data-name="HANNALY BIELLE N. AMBROCIO" data-description="Description for Student 36.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 36">
+                </div>
+                <div class="student-card" data-name="PRINCESS KIM D. BADAJOS" data-description="Description for Student 37.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 37">
+                </div>
+                <div class="student-card" data-name="LOUIE JONES C. BEÑARES" data-description="Description for Student 38.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 38">
+                </div>
+                <div class="student-card" data-name="MARIA FLOR C. BENOSA" data-description="Description for Student 39.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 39">
+                </div>
+                <div class="student-card" data-name="ANGEL MAE S. BOLAGAO" data-description="Description for Student 40.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 40">
+                </div>
+                <div class="student-card" data-name="REESZEL ANDREA L. CASIL" data-description="Description for Student 41.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 41">
+                </div>
+                <div class="student-card" data-name="XIANELLE ANNE C. ELISORIO" data-description="Description for Student 42.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 42">
+                </div>
+                <div class="student-card" data-name="SHAINE M. GULMATICO" data-description="Description for Student 43.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 43">
+                </div>
+                <div class="student-card" data-name="MA. SHEAYNA DEIL O. JALANDONI" data-description="Description for Student 44.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 44">
+                </div>
+                <div class="student-card" data-name="LYKA MARIE J. MANDIA" data-description="Description for Student 45.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 45">
+                </div>
+                <div class="student-card" data-name="MHICAELLA S. MATIVO" data-description="Description for Student 46.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 46">
+                </div>
+                <div class="student-card" data-name="RHENA MARIE V. ORTAL" data-description="Description for Student 47.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 47">
+                </div>
+                <div class="student-card" data-name="ALETHEA CLIO R. SANTILLIAN" data-description="Description for Student 48.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 48">
+                </div>
+                <div class="student-card" data-name="DENICE R. VILLARITO" data-description="Description for Student 49.">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Crect width='220' height='220' fill='%23222'/%3E%3C/svg%3E" alt="Student 49">
+                </div>
+            </div>
+        </div>
+        <div class="tab-panel" data-tab="memories">
+            <h3>Memories</h3>
+            <p>Selected Memories shows the moments preserved in the album and timeline.</p>
+        </div>
+    </section>
+
+    </div>
+    <div class="page-transition-overlay" aria-hidden="true"></div>
+    <button class="music-toggle" id="musicToggle" type="button">Play Music</button>
+
+    <div class="zoom-overlay" id="studentZoomOverlay">
+        <div class="zoom-card">
+            <button class="zoom-close" id="zoomClose" aria-label="Close">&times;</button>
+            <button class="zoom-arrow prev" id="zoomPrev" type="button" aria-label="Previous student">&lsaquo;</button>
+            <button class="zoom-arrow next" id="zoomNext" type="button" aria-label="Next student">&rsaquo;</button>
+            <img id="zoomImage" src="" alt="Student zoom">
+            <div class="zoom-details">
+                <h3 id="zoomName"></h3>
+                <p id="zoomDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function initPageTransitions() {
+            const exitDuration = 30;
+            const musicToggle = document.getElementById('musicToggle');
+            let musicAudio = null;
+            function normalizeUrl(url) {
+                return new URL(url, window.location.href).href.split('#')[0].split('?')[0].replace(/\/+$/, '').toLowerCase();
+            }
+
+            function saveMusicState() {
+                if (!musicAudio) return;
+                sessionStorage.setItem('musicTime', String(musicAudio.currentTime || 0));
+            }
+
+            function startMusic() {
+                if (!musicAudio) {
+                    musicAudio = new Audio('saranggola/ben-ben-saranggola-official-lyric-video-128-ytshorts.savetube.me.mp3');
+                    musicAudio.loop = true;
+                    musicAudio.preload = 'auto';
+                    musicAudio.volume = 0.35;
+                    musicAudio.addEventListener('timeupdate', saveMusicState);
+                    musicAudio.addEventListener('pause', saveMusicState);
+                }
+                const savedTime = Number(sessionStorage.getItem('musicTime') || 0);
+                if (savedTime > 0) {
+                    musicAudio.currentTime = savedTime;
+                }
+                musicAudio.play().catch(() => {});
+                localStorage.setItem('musicEnabled', '1');
+                if (musicToggle) {
+                    musicToggle.textContent = 'Music On';
+                    musicToggle.classList.add('active');
+                }
+            }
+
+            function stopMusic() {
+                if (musicAudio) {
+                    musicAudio.pause();
+                }
+                localStorage.removeItem('musicEnabled');
+                saveMusicState();
+                if (musicToggle) {
+                    musicToggle.textContent = 'Play Music';
+                    musicToggle.classList.remove('active');
+                }
+            }
+
+            if (localStorage.getItem('musicEnabled') === '1' && musicToggle) {
+                musicToggle.textContent = 'Music On';
+                musicToggle.classList.add('active');
+            }
+
+            if (localStorage.getItem('musicEnabled') === '1') {
+                startMusic();
+            }
+
+            if (musicToggle) {
+                musicToggle.addEventListener('click', function () {
+                    if (musicAudio && !musicAudio.paused) {
+                        stopMusic();
+                    } else {
+                        startMusic();
+                    }
+                });
+            }
+
+            function goToPage(url) {
+                if (!url) return;
+                document.body.classList.add('is-navigating');
+                setTimeout(() => {
+                    window.location.href = url;
+                }, exitDuration);
+            }
+
+            document.querySelectorAll('a[href$=".html"]').forEach(link => {
+                link.addEventListener('click', function (event) {
+                    const url = link.getAttribute('href');
+                    if (!url) return;
+                    if (normalizeUrl(url) === normalizeUrl(window.location.href)) return;
+                    event.preventDefault();
+                    saveMusicState();
+                    goToPage(url);
+                });
+            });
+
+            window.addEventListener('pagehide', saveMusicState);
+            window.addEventListener('beforeunload', saveMusicState);
+        }
+
+        initPageTransitions();
+
+        const boxes = document.querySelectorAll('.card-box');
+        let selectedTab = 'events';
+
+        const tabContent = document.querySelector('.tab-content');
+        const tabPanels = Array.from(document.querySelectorAll('.tab-panel'));
+        const enterButton = document.getElementById('tabEnterBtn');
+
+        function syncTabContentHeight() {
+            if (!tabContent || tabPanels.length === 0) return;
+            const tallest = Math.max(...tabPanels.map(panel => panel.scrollHeight));
+            tabContent.style.setProperty('--tab-content-height', `${tallest}px`);
+        }
+
+        function activateTab(tabName) {
+            const targetPanel = document.querySelector(`.tab-panel[data-tab="${tabName}"]`);
+            if (!targetPanel) return;
+
+            boxes.forEach(item => item.classList.toggle('selected', item.dataset.tab === tabName));
+            tabPanels.forEach(panel => {
+                panel.classList.toggle('active', panel === targetPanel);
+                panel.classList.remove('prev');
+            });
+
+            selectedTab = tabName;
+            if (enterButton) {
+                enterButton.classList.add('hidden');
+            }
+        }
+
+        boxes.forEach(box => {
+            box.addEventListener('click', function () {
+                const clickedTab = box.dataset.tab;
+                if (clickedTab === selectedTab) {
+                    return;
+                }
+
+                activateTab(clickedTab);
+            });
+        });
+
+        if (enterButton) {
+            enterButton.addEventListener('click', function () {
+                const currentPanel = document.querySelector(`.tab-panel[data-tab="${selectedTab}"]`);
+                if (currentPanel && currentPanel.classList.contains('active')) {
+                    return;
+                }
+                activateTab(selectedTab);
+            });
+        }
+
+        syncTabContentHeight();
+        window.addEventListener('load', syncTabContentHeight);
+        window.addEventListener('resize', function () {
+            clearTimeout(window.__tabHeightTimer);
+            window.__tabHeightTimer = setTimeout(syncTabContentHeight, 120);
+        });
+
+        const studentGrid = document.querySelector('.student-grid');
+        const studentCards = studentGrid ? Array.from(studentGrid.children) : [];
+
+        const zoomOverlay = document.getElementById('studentZoomOverlay');
+        const zoomImage = document.getElementById('zoomImage');
+        const zoomName = document.getElementById('zoomName');
+        const zoomDescription = document.getElementById('zoomDescription');
+        const zoomClose = document.getElementById('zoomClose');
+        const zoomPrev = document.getElementById('zoomPrev');
+        const zoomNext = document.getElementById('zoomNext');
+        let selectedStudentIndex = -1;
+
+        const eventCarousel1 = {
+            slides: Array.from(document.querySelectorAll('#eventCarousel1 .event-slide')),
+            prev: document.getElementById('eventPrev1'),
+            next: document.getElementById('eventNext1'),
+            activeIndex: 0
+        };
+
+        const eventCarousel2 = {
+            slides: Array.from(document.querySelectorAll('#eventCarousel2 .event-slide')),
+            prev: document.getElementById('eventPrev2'),
+            next: document.getElementById('eventNext2'),
+            activeIndex: 0
+        };
+
+        const eventCarousel3 = {
+            slides: Array.from(document.querySelectorAll('#eventCarousel3 .event-slide')),
+            prev: document.getElementById('eventPrev3'),
+            next: document.getElementById('eventNext3'),
+            activeIndex: 0
+        };
+
+        function initEventCarousel(carousel) {
+            function update() {
+                carousel.slides.forEach((slide, idx) => {
+                    slide.classList.toggle('active', idx === carousel.activeIndex);
+                });
+                if (carousel.prev) carousel.prev.disabled = carousel.activeIndex === 0;
+                if (carousel.next) carousel.next.disabled = carousel.activeIndex >= carousel.slides.length - 1;
+            }
+
+            if (carousel.prev) {
+                carousel.prev.addEventListener('click', function () {
+                    if (carousel.activeIndex > 0) {
+                        carousel.activeIndex -= 1;
+                        update();
+                    }
+                });
+            }
+
+            if (carousel.next) {
+                carousel.next.addEventListener('click', function () {
+                    if (carousel.activeIndex < carousel.slides.length - 1) {
+                        carousel.activeIndex += 1;
+                        update();
+                    }
+                });
+            }
+
+            update();
+        }
+
+        initEventCarousel(eventCarousel1);
+        initEventCarousel(eventCarousel2);
+        initEventCarousel(eventCarousel3);
+
+        const eventFallbackSrc = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='360'%3E%3Crect width='600' height='360' fill='%23222'/%3E%3C/svg%3E";
+        document.querySelectorAll('.event-slide').forEach(img => {
+            img.onerror = function () {
+                this.onerror = null;
+                this.src = eventFallbackSrc;
+            };
+        });
+
+        function showZoomStudent(index) {
+            if (index < 0 || index >= studentCards.length) return;
+            selectedStudentIndex = index;
+            const card = studentCards[selectedStudentIndex];
+            const img = card.querySelector('img');
+            zoomImage.src = img.src;
+            zoomImage.alt = img.alt;
+            zoomName.textContent = card.dataset.name || 'Student';
+            zoomDescription.textContent = card.dataset.description || '';
+            zoomOverlay.classList.add('active');
+            if (zoomPrev) zoomPrev.disabled = selectedStudentIndex === 0;
+            if (zoomNext) zoomNext.disabled = selectedStudentIndex === studentCards.length - 1;
+        }
+
+        document.querySelectorAll('.student-card img').forEach(img => {
+            img.addEventListener('click', function () {
+                const card = img.closest('.student-card');
+                const index = studentCards.indexOf(card);
+                showZoomStudent(index);
+            });
+        });
+
+        if (zoomPrev) {
+            zoomPrev.addEventListener('click', function () {
+                if (selectedStudentIndex > 0) {
+                    showZoomStudent(selectedStudentIndex - 1);
+                }
+            });
+        }
+
+        if (zoomNext) {
+            zoomNext.addEventListener('click', function () {
+                if (selectedStudentIndex < studentCards.length - 1) {
+                    showZoomStudent(selectedStudentIndex + 1);
+                }
+            });
+        }
+
+        zoomClose.addEventListener('click', function () {
+            zoomOverlay.classList.remove('active');
+        });
+
+        zoomOverlay.addEventListener('click', function (event) {
+            if (event.target === zoomOverlay) {
+                zoomOverlay.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
+
